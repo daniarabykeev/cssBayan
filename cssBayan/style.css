@@ -67,7 +67,7 @@ p {
   padding: 10px 15px;
 
   font-size: 14px;
-  color: #fff;
+  color: #f0eded;
 }
 
 .faq-input {
@@ -77,6 +77,10 @@ p {
   width: 0;
   height: 0;
 }
+
+/* .faq-input:checked ~ .faq-text {
+  display: block;
+} */
 
 .faq-input:checked ~ .faq-text {
   display: block;
